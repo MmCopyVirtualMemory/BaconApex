@@ -1,0 +1,124 @@
+﻿  Drawings.cpp
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Drawings.cpp(54,28): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Drawings.cpp(54,24): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Drawings.cpp(55,28): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Drawings.cpp(55,24): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Drawings.cpp(56,19): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Drawings.cpp(69,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  globals.cpp
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\printa.hpp(22,2): warning C4091: 'typedef ': ignored on left of 'printa_e' when no variable is declared
+  Modules.cpp
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(101,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(101,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(101,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(101,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(102,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(102,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(102,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(102,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(108,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(108,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(108,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(109,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(109,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(109,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(110,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(110,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(110,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(111,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(111,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(111,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(114,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(114,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(114,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(115,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(115,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Modules.cpp(115,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  overlay.cpp
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\overlay.cpp(399,84): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\overlay.cpp(399,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\overlay.cpp(402,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\overlay.cpp(402,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\overlay.cpp(416,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\overlay.cpp(416,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Player.cpp
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  format.cc
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format.h(1845,57): warning C4244: 'argument': conversion from 'unsigned __int64' to 'size_t', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format.h(1972): message : see reference to function template instantiation 'OutputIt fmt::v7::detail::write_float<OutputIt,fmt::v7::detail::dragonbox::decimal_fp<float>,char>(OutputIt,const DecimalFP &,const fmt::v7::basic_format_specs<char> &,fmt::v7::detail::float_specs,Char)' being compiled
+          with
+          [
+              OutputIt=std::back_insert_iterator<std::string>,
+              DecimalFP=fmt::v7::detail::dragonbox::decimal_fp<float>,
+              Char=char
+          ]
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format.h(3734): message : see reference to function template instantiation 'OutputIt fmt::v7::detail::write<char,std::back_insert_iterator<std::string>,T,0>(OutputIt,T)' being compiled
+          with
+          [
+              OutputIt=std::back_insert_iterator<std::string>,
+              T=float
+          ]
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format-inl.h(2643): message : see reference to function template instantiation 'std::string fmt::v7::to_string<T,0>(const T &)' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\core.h(1331): message : see reference to function template instantiation 'std::string fmt::v7::detail::stringifier::operator ()<float>(T) const' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format-inl.h(2746): message : see reference to function template instantiation 'std::string fmt::v7::visit_format_arg<fmt::v7::detail::stringifier,Context>(Visitor &&,const fmt::v7::basic_format_arg<Context> &)' being compiled
+          with
+          [
+              Context=fmt::v7::format_context,
+              Visitor=fmt::v7::detail::stringifier
+          ]
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format.h(1846,56): warning C4244: 'argument': conversion from 'unsigned __int64' to 'size_t', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format.h(1863,32): warning C4244: 'argument': conversion from 'unsigned __int64' to 'size_t', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format.h(1876,32): warning C4244: 'argument': conversion from 'unsigned __int64' to 'size_t', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\printa\fmt\format.h(1891,30): warning C4244: 'argument': conversion from 'unsigned __int64' to 'size_t', possible loss of data
+  os.cc
+  Util.cpp
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Util.cpp(63,34): warning C4244: 'return': conversion from 'LONGLONG' to 'uintptr_t', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Util.cpp(66,24): warning C4244: 'return': conversion from 'ULONGLONG' to 'uintptr_t', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Util.cpp(89,10): warning C4244: 'initializing': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Util.cpp(90,10): warning C4244: 'initializing': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Util.cpp(92,48): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Util.cpp(93,48): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Util.cpp(106,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gagex\source\repos\BaconApex\UC-Apex-Remastered\Util.cpp(107,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+overlay.obj : error LNK2019: unresolved external symbol _D3DXCreateFontW@48 referenced in function "bool __cdecl overlay::DirectXInit(void)" (?DirectXInit@overlay@@YA_NXZ)
+overlay.obj : error LNK2019: unresolved external symbol _D3DXCreateLine@8 referenced in function "bool __cdecl overlay::DirectXInit(void)" (?DirectXInit@overlay@@YA_NXZ)
+overlay.obj : error LNK2019: unresolved external symbol _D3DXCreateTextureFromFileInMemory@16 referenced in function "bool __cdecl overlay::DirectXInit(void)" (?DirectXInit@overlay@@YA_NXZ)
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\gagex\source\repos\BaconApex\Debug\UC-Apex-Remastered.exe : fatal error LNK1120: 3 unresolved externals
