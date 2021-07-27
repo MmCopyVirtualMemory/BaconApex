@@ -226,6 +226,12 @@ void DrawImGui()
 
 		ImGui::Spacing();
 
+		ImGui::Checkbox(xorstr_("RMB"), &globals.rmb);
+		ImGui::Checkbox(xorstr_("LMB"), &globals.lmb);
+		ImGui::Checkbox(xorstr_("LALT"), &globals.lalt);
+
+		ImGui::Spacing();
+
 		ImGui::Checkbox(xorstr_("Aimbot"), &globals.aimbot);
 		ImGui::Checkbox(xorstr_("Aimbot Visibility Check"), &globals.aimbotVisibleCheck);
 		ImGui::SliderFloat(xorstr_("Aimbot RCS Intensity"), &globals.aimRcsIntensity, 0.f, 100.f, "%.1f%%");
@@ -456,10 +462,10 @@ void overlay::Render()
 			DrawCircle(globals.windowWH.x / 2, globals.windowWH.y / 2, globals.aimbotFOV, 1.f, 50.f, globals.rainbowFOV ? ImGui::ColorConvertFloat4ToU32(globals.currentRainbowColor) : Util::Vec4toARGB(globals.fovCircleColor));
 		}
 
+		DrawString((std::string(xorstr_("Join the discord at https://discord.gg/HCPE2ZuUE3"))).c_str(), 5, 33, ARGB(255, 255, 0, 0), pESPFont);
 		DrawString((std::string(xorstr_("Aimbot:\t")) + (globals.aimbot ? xorstr_("ON") : xorstr_("OFF"))).c_str(), 5, 5, globals.aimbot ? ARGB(255, 0, 255, 0) : ARGB(255, 255, 0, 0), pESPFont);
 		DrawString((std::string(xorstr_("RCS:\t")) + (globals.rcs ? xorstr_("ON") : xorstr_("OFF"))).c_str(), 5, 19, globals.rcs ? ARGB(255, 0, 255, 0) : ARGB(255, 255, 0, 0), pESPFont);
 		DrawString((std::string(xorstr_("ESP:\t")) + (globals.esp ? xorstr_("ON") : xorstr_("OFF"))).c_str(), 5, 33, globals.esp ? ARGB(255, 0, 255, 0) : ARGB(255, 255, 0, 0), pESPFont);
-		DrawString((std::string(xorstr_("Join the discord at https://discord.gg/HCPE2ZuUE3"))).c_str(), 5, 33, ARGB(255, 255, 0, 0), pESPFont);
 		//DrawString((std::string(xorstr_("Target:\t")) + ((globals.currentAimTarget != NULL) ? xorstr_("YES") : xorstr_("NO"))).c_str(), 5, 47, ARGB(255, 0, 255, 0), pESPFont);
 
 		drawList->PushClipRectFullScreen();

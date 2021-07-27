@@ -37,6 +37,10 @@ struct globalVars
 
 	float rainbowSpeed = 0.005f;
 
+	bool lalt = false;
+	bool lmb = false;
+	bool rmb = true;
+
 	bool rcs = true; // recoil control system toggle
 	bool aimbot = false; // aimbot toggle
 	bool aimbotVisibleCheck = true; // aimbot visibility check toggle
@@ -65,6 +69,7 @@ struct globalVars
 	float maxKskDistance = 30.f;
 	int espThickness = 2;
 	int headLineThickness = 2;
+	int akey = 0x02;
 };
 
 extern KDriver Driver;
