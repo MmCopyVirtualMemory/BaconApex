@@ -181,7 +181,6 @@
     <ClInclude Include="printa\fmt\ranges.h" />
     <ClInclude Include="printa\macros.hpp" />
     <ClInclude Include="printa\printa.hpp" />
-    <ClInclude Include="singleton.hpp" />
     <ClInclude Include="Util.h" />
     <ClInclude Include="XorStr.hpp" />
   </ItemGroup>

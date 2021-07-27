@@ -39,9 +39,6 @@
     <ClInclude Include="defs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="singleton.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="printa\macros.hpp">
       <Filter>printa</Filter>
     </ClInclude>
