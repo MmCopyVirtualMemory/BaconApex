@@ -24,7 +24,6 @@ struct globalVars
 	POINT windowWH = { 0, 0 };
 
 	ImVec4 currentRainbowColor = { 1.f, 0.f, 0.f, 1.f };
-	ImVec4 fovCircleColor = { 1.f, 0.f, 0.f, 1.f };
 	ImVec4 espColorVisible = { 0.f, 1.f, 0.f, 1.f };
 	ImVec4 espColorInvisible = { 1.f, 0.f, 0.f, 1.f };
 	ImVec4 espFillColorVisible = { 0.f, 1.f, 0.f, .039f };
@@ -35,15 +34,9 @@ struct globalVars
 	ImVec4 headCircleColorInvisible = { 1.f, .1f, 0.f, 1.f };
 	ImVec4 headLineColor = { 1.f, 0.f, 0.f, 1.f };
 
-	float rainbowSpeed = 0.005f;
-
-	bool rcs = true; // recoil control system toggle
-	bool aimbot = false; // aimbot toggle
-	bool aimbotVisibleCheck = true; // aimbot visibility check toggle
+	/* ESP/General */
 	bool esp = true; // esp toggle
 	bool menuActive = true; // menu toggle
-	bool drawAimbotFOV = true;
-	bool rainbowFOV = true;
 	bool fillBox = false;
 	bool espColorVisibleRainbow = false;
 	bool espColorInvisibleRainbow = false;
@@ -53,10 +46,7 @@ struct globalVars
 	bool headCircleColorInvisibleRainbow = false;
 	bool headLineRainbow = false;
 
-	float rcsIntensity = 100.f; // recoil control system intensity in %
-	float aimRcsIntensity = 100.f; // aimbot recoil control intensity in %
-	float maxAimbotDistance = 200.f; // maximum aimbot distance
-	float aimbotFOV = 200.f; // aimbot FOV
+	float rainbowSpeed = 0.005f;
 	float maxBoxDistance = 1000.f;
 	float maxTextDistance = 300.f;
 	float maxHealthDistance = 150.f;
@@ -65,7 +55,22 @@ struct globalVars
 	float maxKskDistance = 30.f;
 	int espThickness = 2;
 	int headLineThickness = 2;
+
+	/* Recoil Control */
+	bool rcs = true; // recoil control system toggle
+	float rcsIntensity = 100.f; // recoil control system intensity in %
+
+	/* Aimbot */
+	bool aimbot = false; // aimbot toggle
+	bool drawAimbotFOV = true;
+	bool aimbotVisibleCheck = true; // aimbot visibility check toggle
+	bool rainbowFOV = true;
+	float aimRcsIntensity = 100.f; // aimbot recoil control intensity in %
+	float maxAimbotDistance = 200.f; // maximum aimbot distance
+	float aimbotFOV = 200.f; // aimbot FOV
+	ImVec4 fovCircleColor = { 1.f, 0.f, 0.f, 1.f };
 	int akey = 0x02;
+
 };
 
 extern KDriver Driver;
