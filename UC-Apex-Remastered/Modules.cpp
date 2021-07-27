@@ -12,7 +12,24 @@ void Modules::Run()
 	Modules::UpdateKeys();
 	Modules::NoRecoil();
 	Modules::Aimbot();
+//	Modules::UpdateAKey();
 }
+
+//void Modules::UpdateAKey()
+//{
+//	if (globals.aimbkey == 0) //rmb
+//	{
+//		globals.akey = 0x02; //rmb
+//	}
+//	if (globals.aimbkey == 1); //lmb
+//	{
+//		globals.akey = 0x01; //lmb
+//	}
+//	if (globals.aimbkey == 2); //lalt
+//	{
+//		globals.akey = 0x12; //lalt
+//	}
+//}
 
 void Modules::UpdateVars()
 {
@@ -63,7 +80,7 @@ void Modules::Aimbot()
 	if (!globals.aimbot || !Player::IsPlayer(globals.localPlayer)) return;
 
 	globals.currentAimTarget = Player::GetBestTarget(); // find closest enemy to crosshair
-	if (GetAsyncKeyState(VK_LMENU) & 0x8000) // aimbot key
+	if (GetAsyncKeyState(0x12) & 0x8000) // aimbot key
 	{
 		if (globals.currentAimTarget != NULL)
 		{

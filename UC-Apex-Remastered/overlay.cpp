@@ -201,7 +201,7 @@ void InputHandler() {
 	if (GetAsyncKeyState(VK_LBUTTON)) button = 0;
 	if (button != -1) ImGui::GetIO().MouseDown[button] = true;
 }
-
+//static const char * items[]{ "RMB","LMB","LALT" };
 void DrawImGui()
 {
 	// pass input to imgui
@@ -223,6 +223,10 @@ void DrawImGui()
 		ImGui::Begin(xorstr_("menu"), (bool*)0, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoCollapse);
 
 		ImGui::SliderFloat(xorstr_("Rainbow Speed"), &globals.rainbowSpeed, 0.0005f, 0.5f);
+
+		//ImGui::Spacing();
+
+		//ImGui::Combo("aimbkey",&globals.aimbkey, items,IM_ARRAYSIZE(items));
 
 		ImGui::Spacing();
 

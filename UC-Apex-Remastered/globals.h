@@ -65,7 +65,8 @@ struct globalVars
 	float maxKskDistance = 30.f;
 	int espThickness = 2;
 	int headLineThickness = 2;
-	int akey = 0x02;
+//	int aimbkey = 0;
+//	int akey = 0x02;
 };
 
 extern KDriver Driver;
