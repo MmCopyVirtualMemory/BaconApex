@@ -37,10 +37,6 @@ struct globalVars
 
 	float rainbowSpeed = 0.005f;
 
-	bool lalt = false;
-	bool lmb = false;
-	bool rmb = true;
-
 	bool rcs = true; // recoil control system toggle
 	bool aimbot = false; // aimbot toggle
 	bool aimbotVisibleCheck = true; // aimbot visibility check toggle

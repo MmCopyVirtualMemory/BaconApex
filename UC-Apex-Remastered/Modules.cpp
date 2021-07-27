@@ -12,12 +12,6 @@ void Modules::Run()
 	Modules::UpdateKeys();
 	Modules::NoRecoil();
 	Modules::Aimbot();
-	Modules::AimbotKey();
-}
-
-void Modules::AimbotKey()
-{
-	
 }
 
 void Modules::UpdateVars()
@@ -69,22 +63,7 @@ void Modules::Aimbot()
 	if (!globals.aimbot || !Player::IsPlayer(globals.localPlayer)) return;
 
 	globals.currentAimTarget = Player::GetBestTarget(); // find closest enemy to crosshair
-	if (globals.lalt) {
-		globals.rmb = false;
-		globals.lmb = false;
-		globals.akey = 0xA4;
-	}
-	if (globals.lmb) {
-		globals.rmb = false;
-		globals.lalt = false;
-		globals.akey = 0x01;
-	}
-	if (globals.rmb) {
-		globals.lmb = false;
-		globals.lalt = false;
-		globals.akey = 0x02;
-	}
-	if (GetAsyncKeyState(globals.akey) & 0x8000) // aimbot key
+	if (GetAsyncKeyState(VK_LMENU) & 0x8000) // aimbot key
 	{
 		if (globals.currentAimTarget != NULL)
 		{
