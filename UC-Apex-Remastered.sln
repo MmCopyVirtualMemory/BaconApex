@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Driver", "Driver\Driver.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UC-Apex-Remastered", "UC-Apex-Remastered\UC-Apex-Remastered.vcxproj", "{2E34662D-558C-4BEA-B8AB-067623187603}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimplePastedGlow", "SimplePastedGlow\SimplePastedGlow.vcxproj", "{D08BC218-07E7-4B65-82B4-C4C99DEF1835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -55,6 +57,18 @@ Global
 		{2E34662D-558C-4BEA-B8AB-067623187603}.Release|x64.Build.0 = Release|x64
 		{2E34662D-558C-4BEA-B8AB-067623187603}.Release|x86.ActiveCfg = Release|Win32
 		{2E34662D-558C-4BEA-B8AB-067623187603}.Release|x86.Build.0 = Release|Win32
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Debug|ARM.ActiveCfg = Debug|Win32
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Debug|x64.ActiveCfg = Debug|x64
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Debug|x64.Build.0 = Debug|x64
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Debug|x86.ActiveCfg = Debug|Win32
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Debug|x86.Build.0 = Debug|Win32
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Release|ARM.ActiveCfg = Release|Win32
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Release|ARM64.ActiveCfg = Release|Win32
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Release|x64.ActiveCfg = Release|x64
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Release|x64.Build.0 = Release|x64
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Release|x86.ActiveCfg = Release|Win32
+		{D08BC218-07E7-4B65-82B4-C4C99DEF1835}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
