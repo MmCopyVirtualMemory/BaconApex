@@ -80,7 +80,7 @@ void Modules::Aimbot()
 	if (!globals.aimbot || !Player::IsPlayer(globals.localPlayer)) return;
 
 	globals.currentAimTarget = Player::GetBestTarget(); // find closest enemy to crosshair
-	if (GetAsyncKeyState(0x12) & 0x8000) // aimbot key
+	if (GetAsyncKeyState(VK_RBUTTON) & 0x8000) // aimbot key is right click
 	{
 		if (globals.currentAimTarget != NULL)
 		{
