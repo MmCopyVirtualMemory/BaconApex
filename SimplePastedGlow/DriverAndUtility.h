@@ -121,7 +121,7 @@ public:
 	}
 };
 
-extern KDriver Driver;
+KDriver Driver;
 
 
 DWORD64 GetEntityById(int Ent, DWORD64 Base)
