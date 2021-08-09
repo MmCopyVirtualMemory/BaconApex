@@ -1,0 +1,13 @@
+﻿  Main.cpp
+D:\Github Things\BaconApex\SimplePastedGlow\DriverAndUtility.h(130,43): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\DriverAndUtility.h(133,40): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(22,47): warning C4244: 'argument': conversion from 'uint64_t' to 'uintptr_t', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(39,54): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(40,47): warning C4244: 'argument': conversion from 'DWORD64' to 'uintptr_t', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(45,28): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(46,28): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(47,33): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(48,30): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(49,30): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+D:\Github Things\BaconApex\SimplePastedGlow\Main.cpp(50,30): warning C4244: 'argument': conversion from 'DWORD64' to 'UINT_PTR', possible loss of data
+  SimplePastedGlow.vcxproj -> D:\Github Things\BaconApex\Debug\SimplePastedGlow.exe
