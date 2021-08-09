@@ -10,6 +10,9 @@
 //if I forgot any credits leave an issue on the github so I can include them
 int main() 
 {
+	Driver.Init();
+	
+
 	uint64_t process_id = GetPid(xorstr_(L"r5apex.exe"));
 	if (!process_id) 
 	{
