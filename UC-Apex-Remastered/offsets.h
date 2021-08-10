@@ -1,6 +1,7 @@
 #pragma once
-#define OFFSET_ENTITYLIST		    0x19224d8
-#define OFFSET_LOCAL_ENT			0x1cd1d58   
+
+#define OFFSET_ENTITYLIST		    0x1923578
+#define OFFSET_LOCAL_ENT			0x1CD2DF8  
 
 #define OFFSET_NAME_INDEX			0x38
 #define OFFSET_TEAM					0x0448
