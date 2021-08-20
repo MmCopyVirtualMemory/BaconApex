@@ -10,9 +10,14 @@
 //if I forgot any credits leave an issue on the github so I can include them
 int main() 
 {
-	Driver.Init();
+	if (!Driver.Init()) 
+	{
+		std::cout << xorstr_("driver init failed to get hooked function");
+		Sleep(69420);
+		return -3;
+	}
 	
-
+	
 	uint64_t process_id = GetPid(xorstr_(L"r5apex.exe"));
 	if (!process_id) 
 	{
@@ -31,7 +36,7 @@ int main()
 	}
 	std::cout << base_address << std::endl;
 
-
+	
 	while (true)
 	{
 		for (int i = 0; i < 100; i++)
