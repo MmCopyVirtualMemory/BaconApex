@@ -34,7 +34,7 @@ int main(int argCount, char** argVector) /* the file name is the first element o
 
 	if (!Driver.Init())
 	{
-		printa->print<fail>(xorstr_("Failed to get the hooked function\n"));
+		printa->print<fail>(xorstr_("Init failed please make sure the driver is loaded and the program is run as admin. Read the faq before making a ticket ;)\n"));
 		Sleep(5000);
 		return -1;
 	}

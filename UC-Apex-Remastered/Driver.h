@@ -54,6 +54,17 @@ public:
 		return base;
 	}
 
+	//check if the hook is in place more reliable than just a module base request
+	bool Check()
+	{
+		KERNEL_REQUEST checkRequest;
+		checkRequest.instructionID = INST_ISRUNNING;
+
+		CallHook(&checkRequest);
+
+		return (checkRequest.response == (void*)0x6969);
+	}
+
 	bool Init()
 	{
 		// loading the library the hooked function is in and getting the address of it
@@ -65,7 +76,7 @@ public:
 
 		if (!hookedFunc || !currentPID) return false;
 
-		return true;
+		return Check();
 	}
 
 	bool ReadRaw(uintptr_t pID, UINT_PTR readAddress, UINT_PTR targetAddress, ULONG size)
