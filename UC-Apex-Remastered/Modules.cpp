@@ -12,24 +12,7 @@ void Modules::Run()
 	Modules::UpdateKeys();
 	Modules::NoRecoil();
 	Modules::Aimbot();
-//	Modules::UpdateAKey();
 }
-
-//void Modules::UpdateAKey()
-//{
-//	if (globals.aimbkey == 0) //rmb
-//	{
-//		globals.akey = 0x02; //rmb
-//	}
-//	if (globals.aimbkey == 1); //lmb
-//	{
-//		globals.akey = 0x01; //lmb
-//	}
-//	if (globals.aimbkey == 2); //lalt
-//	{
-//		globals.akey = 0x12; //lalt
-//	}
-//}
 
 void Modules::UpdateVars()
 {
@@ -79,36 +62,56 @@ void Modules::Aimbot()
 	// check if localplayer is valid and aimbot is on
 	if (!globals.aimbot || !Player::IsPlayer(globals.localPlayer)) return;
 
+	int key;
+	switch (globals.aimKey) {
+	case 0: // "Right Mouse"
+		key = VK_RBUTTON;
+		break;
+	case 1: // "Left Mouse"
+		key = VK_RBUTTON;
+		break;
+	case 2: // "Left Alt"
+		key = VK_RBUTTON;
+		break;
+	case 3: // "Left Shift"
+		key = VK_RBUTTON;
+		break;
+	case 4: // "Space"
+		key = VK_RBUTTON;
+		break;
+	default: // Should never occur.
+		key = VK_RBUTTON;
+		break;
+	}
+	if (!GetAsyncKeyState(key)) return;
+
 	globals.currentAimTarget = Player::GetBestTarget(); // find closest enemy to crosshair
-	if (GetAsyncKeyState(VK_RBUTTON) & 0x8000) // aimbot key is right click
+	if (globals.currentAimTarget != NULL)
 	{
-		if (globals.currentAimTarget != NULL)
+		if (Player::IsAlive(globals.currentAimTarget))
 		{
-			if (Player::IsAlive(globals.currentAimTarget))
-			{
-				// get positions and predict the enemy position
-				vec3 localHead = Driver.rpm<vec3>(globals.localPlayer + OFFSET_CAMERAPOS);
-				vec3 targetHead = Util::GetBonePos(globals.currentAimTarget, 8);
-				Player::PredictPos(globals.currentAimTarget, &targetHead);
+			// get positions and predict the enemy position
+			vec3 localHead = Driver.rpm<vec3>(globals.localPlayer + OFFSET_CAMERAPOS);
+			vec3 targetHead = Util::GetBonePos(globals.currentAimTarget, 8);
+			Player::PredictPos(globals.currentAimTarget, &targetHead);
 
-				// get all the angles
-				vec3 oldAngle = Driver.rpm<vec3>(globals.localPlayer + OFFSET_VIEWANGLES);
-				vec3 punchAngle = Driver.rpm<vec3>(globals.localPlayer + OFFSET_AIMPUNCH);
-				vec3 breathAngle = Driver.rpm<vec3>(globals.localPlayer + OFFSET_BREATH_ANGLES);
+			// get all the angles
+			vec3 oldAngle = Driver.rpm<vec3>(globals.localPlayer + OFFSET_VIEWANGLES);
+			vec3 punchAngle = Driver.rpm<vec3>(globals.localPlayer + OFFSET_AIMPUNCH);
+			vec3 breathAngle = Driver.rpm<vec3>(globals.localPlayer + OFFSET_BREATH_ANGLES);
 
-				// calculate the new angles
-				vec3 newAngles = Util::CalcAngle(localHead, targetHead);
+			// calculate the new angles
+			vec3 newAngles = Util::CalcAngle(localHead, targetHead);
 
-				// subtracting punchangles and breath angles
-				newAngles -= breathAngle * (globals.aimRcsIntensity / 100.f);
-				newAngles -= (punchAngle * 0.05f) * (globals.aimRcsIntensity / 100.f);
-				newAngles += oldAngle * (globals.aimRcsIntensity / 100.f);
-				oldPunch = punchAngle; // do this so the rcs doesnt jump down after unlocking from the enemy
+			// subtracting punchangles and breath angles
+			newAngles -= breathAngle * (globals.aimRcsIntensity / 100.f);
+			newAngles -= (punchAngle * 0.05f) * (globals.aimRcsIntensity / 100.f);
+			newAngles += oldAngle * (globals.aimRcsIntensity / 100.f);
+			oldPunch = punchAngle; // do this so the rcs doesnt jump down after unlocking from the enemy
 
-				newAngles.Normalize(); // clamp angles
-
-				Driver.wpm<vec2>(globals.localPlayer + OFFSET_VIEWANGLES, { newAngles.x, newAngles.y }); // overwrite old angles
-			}
+			newAngles.Normalize(); // clamp angles
+	
+			Driver.wpm<vec2>(globals.localPlayer + OFFSET_VIEWANGLES, { newAngles.x, newAngles.y }); // overwrite old angles
 		}
 	}
 }

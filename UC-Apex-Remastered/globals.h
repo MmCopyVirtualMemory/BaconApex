@@ -63,10 +63,12 @@ struct globalVars
 	float maxHeadCircleDistance = 150.f;
 	float maxHeadLineDistance = 150.f;
 	float maxKskDistance = 30.f;
+
 	int espThickness = 2;
 	int headLineThickness = 2;
-//	int aimbkey = 0;
-//	int akey = 0x02;
+
+	std::string aimKeys[5] = { "Right Mouse", "Left Mouse", "Left Alt", "Left Shift", "Space" };
+	int aimKey = 0;
 };
 
 extern KDriver Driver;

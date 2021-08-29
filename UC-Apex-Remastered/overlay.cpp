@@ -201,7 +201,7 @@ void InputHandler() {
 	if (GetAsyncKeyState(VK_LBUTTON)) button = 0;
 	if (button != -1) ImGui::GetIO().MouseDown[button] = true;
 }
-//static const char * items[]{ "RMB","LMB","LALT" };
+
 void DrawImGui()
 {
 	// pass input to imgui
@@ -224,10 +224,6 @@ void DrawImGui()
 
 		ImGui::SliderFloat(xorstr_("Rainbow Speed"), &globals.rainbowSpeed, 0.0005f, 0.5f);
 
-		//ImGui::Spacing();
-
-		//ImGui::Combo("aimbkey",&globals.aimbkey, items,IM_ARRAYSIZE(items));
-
 		ImGui::Spacing();
 
 		ImGui::Checkbox(xorstr_("Aimbot"), &globals.aimbot);
@@ -238,7 +234,7 @@ void DrawImGui()
 		ImGui::Checkbox(xorstr_("Draw Aimbot FOV"), &globals.drawAimbotFOV);
 		ImGui::ColorEdit4(xorstr_("FOV Circle Color"), (float*)&globals.fovCircleColor, ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_NoTooltip | ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoOptions | ImGuiColorEditFlags_AlphaBar);
 		ImGui::Checkbox(xorstr_("Rainbow FOV Circle"), &globals.rainbowFOV);
-
+		ImGui::Combo(xorstr_("Aim Key"), &globals.aimKey, globals.aimKeys, IM_ARRAYSIZE(globals.aimKeys));
 		ImGui::Spacing();
 
 		ImGui::Checkbox(xorstr_("Recoil Control"), &globals.rcs);
