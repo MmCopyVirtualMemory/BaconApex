@@ -67,7 +67,7 @@ struct globalVars
 	int espThickness = 2;
 	int headLineThickness = 2;
 
-	std::string aimKeys[5] = { "Right Mouse", "Left Mouse", "Left Alt", "Left Shift", "Space" };
+	const char* aimKeys[5] = { "Right Mouse", "Left Mouse", "Left Alt", "Left Shift", "Space" };
 	int aimKey = 0;
 };
 

@@ -28,42 +28,46 @@ D:\Github Things\BaconApex\UC-Apex-Remastered\printa\printa.hpp(22,2): warning C
 D:\Github Things\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Github Things\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Github Things\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(120,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(120,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(120,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(120,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(121,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(121,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(121,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(121,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(127,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(127,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(127,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(128,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(128,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(128,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(129,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(129,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(129,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(130,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(130,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(123,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(123,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(123,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(123,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(124,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(124,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(124,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(124,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(130,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(130,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(130,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(133,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(133,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(133,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(134,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(134,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(134,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(131,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(131,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(131,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(132,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(132,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(132,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(133,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(133,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(133,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(136,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(136,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(136,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(137,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(137,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\Modules.cpp(137,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   overlay.cpp
 D:\Github Things\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Github Things\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Github Things\BaconApex\UC-Apex-Remastered\defs.h(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(403,84): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(403,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(406,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(406,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(420,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(420,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(237,99): error C2665: 'ImGui::Combo': none of the 3 overloads could convert all the argument types
+D:\Github Things\BaconApex\UC-Apex-Remastered\imgui\imgui.h(486,29): message : could be 'bool ImGui::Combo(const char *,int *,const char *,int)'
+D:\Github Things\BaconApex\UC-Apex-Remastered\imgui\imgui.h(485,29): message : or       'bool ImGui::Combo(const char *,int *,const char *const [],int,int)'
+D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(237,99): message : while trying to match the argument list '(char *, int *, std::string [5], int)'
+D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(399,84): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(399,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(402,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(402,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(416,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Github Things\BaconApex\UC-Apex-Remastered\overlay.cpp(416,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Player.cpp
 D:\Github Things\BaconApex\UC-Apex-Remastered\defs.h(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Github Things\BaconApex\UC-Apex-Remastered\defs.h(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
@@ -117,8 +121,3 @@ D:\Github Things\BaconApex\UC-Apex-Remastered\Util.cpp(93,48): warning C4244: '-
 D:\Github Things\BaconApex\UC-Apex-Remastered\Util.cpp(106,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 D:\Github Things\BaconApex\UC-Apex-Remastered\Util.cpp(107,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-overlay.obj : error LNK2019: unresolved external symbol _D3DXCreateFontW@48 referenced in function "bool __cdecl overlay::DirectXInit(void)" (?DirectXInit@overlay@@YA_NXZ)
-overlay.obj : error LNK2019: unresolved external symbol _D3DXCreateLine@8 referenced in function "bool __cdecl overlay::DirectXInit(void)" (?DirectXInit@overlay@@YA_NXZ)
-overlay.obj : error LNK2019: unresolved external symbol _D3DXCreateTextureFromFileInMemory@16 referenced in function "bool __cdecl overlay::DirectXInit(void)" (?DirectXInit@overlay@@YA_NXZ)
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
-D:\Github Things\BaconApex\Debug\UC-Apex-Remastered.exe : fatal error LNK1120: 3 unresolved externals
