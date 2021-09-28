@@ -1,18 +1,18 @@
 #pragma once
 
-#define OFFSET_ENTITYLIST		    0x192f108 
-#define OFFSET_LOCAL_ENT			0x1cdea28      
+#define OFFSET_ENTITYLIST		    0x1930108 
+#define OFFSET_LOCAL_ENT			0x1CDFA28      
 
 #define OFFSET_NAME_INDEX			0x38
 #define OFFSET_TEAM					0x0448
 #define OFFSET_HEALTH				0x0438
 #define OFFSET_SHIELD				0x0170
 #define OFFSET_NAME					0x0589
-#define OFFSET_VISIBLE_TIME         0x1ACC
+#define OFFSET_VISIBLE_TIME         0x1ad4
 
-#define OFFSET_NAMELIST				0x84067A0 
+#define OFFSET_NAMELIST				0xb73fc60  
 
-#define OFFSET_LIFE_STATE			0x0798
+#define OFFSET_LIFE_STATE			0x0798  
 #define OFFSET_BLEED_OUT_STATE		0x26e8
 
 #define OFFSET_BULLET_SPEED			0x1ED0
@@ -26,5 +26,5 @@
 #define OFFSET_VIEWANGLES			0x2538 
 #define OFFSET_BREATH_ANGLES		(OFFSET_VIEWANGLES - 0x10)
 
-#define OFFSET_MATRIX				0x1b3bd0   
-#define OFFSET_RENDER				0x75017e0  
+#define OFFSET_MATRIX				0x1b3bd0    
+#define OFFSET_RENDER				0x75027e0   
