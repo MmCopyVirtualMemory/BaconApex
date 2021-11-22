@@ -4,6 +4,8 @@ I am not responsible for any code changes besides one line making it run and the
 https://github.com/BaconToaster
 https://github.com/SurgeGotTappedAgain
 
+You won't last more than a game with this according to some people in the main discord. I have stopped updating for that reason. If you need the updated game reversals, check UC.
+
 Tutorial by East Arctica
 1. Visit the website https://github.com/MmCopyVirtualMemory/BaconApex/releases/tag/1.1.1.1.5
 2. Download the files "Driver.sys", "kdmapper.exe", and "UC-Apex-Remastered.exe"
